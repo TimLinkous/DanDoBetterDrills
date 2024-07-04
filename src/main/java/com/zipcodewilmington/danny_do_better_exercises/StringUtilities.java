@@ -34,8 +34,9 @@ public class StringUtilities {
      * @return the first 3 characters of `input`
      */
     public static String getPrefix(String input){
-        String str = getPrefix(input);
-        return str;
+        String answer = "";
+        answer = input.substring(0, 3);
+        return answer;
     }
 
     /**
@@ -43,8 +44,9 @@ public class StringUtilities {
      * @return the last 3 characters of `input`
      */
     public static String getSuffix(String input){
-        String str = getSuffix(input);
-        return str;
+        String answer = "";
+        answer = input.substring(input.length()-3);
+        return answer;
     }
 
     /**
